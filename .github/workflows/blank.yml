@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoupleConnect - Discover Your Perfect Match</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Community</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Discover Your Perfect Match</h1>
+        <p>Take our compatibility quiz and find your ideal partner</p>
+        <button class="btn">Get Started</button>
+    </section>
+
+    <!-- Share Feelings Section -->
+    <section class="share-feelings">
+        <h2>Share Your Heartfelt Feelings</h2>
+        <form id="feelings-form">
+            <label for="partner-name">Partner's Name:</label>
+            <input type="text" id="partner-name" name="partner-name" required>
+
+            <label for="feelings">What do you want to share?</label>
+            <textarea id="feelings" name="feelings" rows="4" required></textarea>
+
+            <button type="submit" class="btn">Share Your Feelings</button>
+        </form>
+    </section>
+
+    <!-- User Profile Section -->
+    <section class="user-profile">
+        <h2>User Profile</h2>
+        <form>
+            <!-- Hobbies -->
+            <label for="hobbies">Hobbies:</label>
+            <input type="text" id="hobbies" name="hobbies">
+
+            <!-- Interests -->
+            <label for="interests">Interests:</label>
+            <input type="text" id="interests" name="interests">
+
+            <!-- Preferences -->
+            <label for="preferences">Preferences:</label>
+            <input type="text" id="preferences" name="preferences">
+
+            <!-- Values -->
+            <label for="values">Values:</label>
+            <input type="text" id="values" name="values">
+
+            <!-- Family Background (optional) -->
+            <label for="family-background">Family Background (optional):</label>
+            <input type="text" id="family-background" name="family-background">
+
+            <!-- Nafrat (Dislikes) -->
+            <label for="nafrat">Nafrat (Dislikes):</label>
+            <input type="text" id="nafrat" name="nafrat">
+        </form>
+    </section>
+
+    <!-- Compatibility Quiz Section -->
+    <section class="compatibility-quiz">
+        <h2>Compatibility Quiz</h2>
+        <form id="quiz-form">
+            <label for="question1">1. Tumhein kya pasand hai?</label>
+            <input type="text" id="question1" name="question1">
+
+            <label for="question2">2. Tumhara favorite hobby kya hai?</label>
+            <input type="text" id="question2" name="question2">
+
+            <label for="question3">3. Tumhein kis cheez se khushi milti hai?</label>
+            <input type="text" id="question3" name="question3">
+
+            <label for="question4">4. Tumhara life goal kya hai?</label>
+            <input type="text" id="question4" name="question4">
+
+            <label for="question5">5. What's your dream date?</label>
+            <input type="text" id="question5" name="question5">
+
+            <button type="submit" class="btn">Submit Quiz</button>
+        </form>
+    </section>
+
+    <!-- Matchmaking Algorithm Section -->
+    <section class="matchmaking-algorithm">
+        <h2>Matchmaking Algorithm</h2>
+        <!-- Algorithm will be implemented here -->
+    </section>
+
+    <!-- Community Forum Section -->
+    <section class="community-forum">
+        <h2>Community Forum</h2>
+        <!-- Forum will be implemented here -->
+    </section>
+
+    <!-- Resources Section -->
+    <section class="resources">
+        <h2>Resources</h2>
+        <!-- Blog posts, videos, and expert tips will be displayed here -->
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
